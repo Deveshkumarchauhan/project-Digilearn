@@ -1,0 +1,102 @@
+.testimonial-container {
+  background-color: #f7fbff;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.line {
+  margin-top: 30px;
+  width: 50px;
+  height: 4px;
+  background-color: #9b2744;
+  
+ 
+}
+
+.subtitle {
+    
+  font-size: 30px;
+  color: #8a8a8a;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.07), 0 6px 6px rgba(0,0,0,0.06);
+  max-width: 320px;
+  padding: 25px 20px 30px;
+  text-align: left;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 3px 0;
+  color: #444;
+}
+
+.role {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.star-icon {
+  margin-right: 4px;
+}
+
+.rating-text {
+  font-weight: 600;
+  font-size: 14px;
+  color: #f4b740;
+}
+
+.testimonial-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #555;
+}

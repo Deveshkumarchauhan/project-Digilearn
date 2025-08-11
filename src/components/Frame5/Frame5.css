@@ -1,0 +1,220 @@
+
+.frame48095553-container {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  width: 100%;
+  height: 983px auto;
+  box-sizing: border-box;
+}
+
+.frame48095553-frame48095553 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.frame48095553-frame48095520 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.frame48095553-frame48095519 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.frame48095553-vector2 {
+  width: 3.50rem;
+  height: 0.30rem;
+  background-color: #A4074D;
+  margin-right: 0.5rem;
+}
+
+.frame48095553-text10 {
+  font-size: 1.25rem;
+  /* font-weight: bold;
+  color: #9333ea; */
+  opacity: 70%;
+}
+
+.frame48095553-text11 {
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  font-size: 36px;
+  color: #1A2434;
+
+}
+
+.frame48095553-frame48095525 {
+  /* width: 410.67px;
+  height: 503px; */
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  /* margin-top: 4rem; */
+}
+
+.frame48095553-frame48095521,
+.frame48095553-frame48095561,
+.frame48095553-frame48095562 {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+  width: 410.67px;
+  height: 503px;
+  flex: 1 1 calc(33.33% - 1rem);
+}
+
+.frame48095553-rectangle14611,
+.frame48095553-rectangle14612,
+.frame48095553-rectangle14613 {
+  width: 100%;
+  /* height: 12rem; */
+  object-fit: cover;
+}
+
+.frame48095553-frame480955431,
+.frame48095553-frame480955432,
+.frame48095553-frame480955433 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.frame48095553-frame480955231,
+.frame48095553-frame480955232,
+.frame48095553-frame480955233 {
+  display: flex;
+  align-items: center;
+}
+
+.frame48095553-user1,
+.frame48095553-user2,
+.frame48095553-user3 {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.frame48095553-text12,
+.frame48095553-text16,
+.frame48095553-text20 {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.frame48095553-frame480955261,
+.frame48095553-frame480955262,
+.frame48095553-frame480955263 {
+  display: flex;
+  align-items: center;
+}
+
+.frame48095553-calendar-blank1,
+.frame48095553-calendar-blank2,
+.frame48095553-calendar-blank3 {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.frame48095553-text13,
+.frame48095553-text17,
+.frame48095553-text21 {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.frame48095553-text14,
+.frame48095553-text18,
+.frame48095553-text22 {
+  font-size: 1.2rem;
+  color: #1e293b;
+  padding: 0 1rem 1rem;
+  display: block;
+}
+
+.frame48095553-frame48095522,
+.frame48095553-frame480955441,
+.frame48095553-frame480955442 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem 1rem;
+  margin-top: 1.5rem;
+  
+}
+
+.frame48095553-text15,
+.frame48095553-text19,
+.frame48095553-text23 {
+  font-size: 0.875rem;
+  /* color: #9333ea; */
+  margin-right: 0.5rem;
+  font-weight: bold;
+  opacity: 70%;
+}
+
+.frame48095553-arrow-right1,
+.frame48095553-arrow-right2,
+.frame48095553-arrow-right3 {
+  width: 1rem;
+  height: 1rem;
+}
+
+.frame48095553-frame4000 {
+  text-align: center;
+}
+
+.frame48095553-text24 {
+  font-size: 0.875rem;
+  color: white;
+  background-color: #A4074D;
+  padding: 0.9rem 4.5rem;
+  border-radius: 0.375rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame48095553-arrow-right4 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .frame48095553-frame48095521,
+  .frame48095553-frame48095561,
+  .frame48095553-frame48095562 {
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+
+  .frame48095553-text11 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .frame48095553-frame48095521,
+  .frame48095553-frame48095561,
+  .frame48095553-frame48095562 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .frame48095553-text11 {
+    font-size: 1rem;
+  }
+
+  .frame48095553-frame48095525 {
+    gap: 1rem;
+  }
+}
