@@ -37,7 +37,6 @@ const Frame = () => {
               </div>
             </div>
           </div>
-        </div>
 
         <div className="div-6">
           <div className="div-wrapper-2">
@@ -47,6 +46,7 @@ const Frame = () => {
             <div className="text-wrapper-5">Learn more</div>
           </div>
         </div>
+         </div>
 
         <div className="div-7">
           <div className="trusted-section">

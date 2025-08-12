@@ -1,17 +1,14 @@
 .frame {
-  /* padding-top: 80px;
-  margin-top: 95px; */
   width: 1440px;
   height: 929px;
   display: flex;
   gap: 251px;
   position: relative;
-  /* background-color: #f9fcff; */
+  
 }
 
 .frame .div {
   position: relative;
-  /* top: -20px; */
   left: 80px;
   width: 624px;
   height: 609px;
@@ -22,13 +19,11 @@
 
 .frame .div-2 {
   width: 624px;
-  /* height: 370px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   position: relative;
-  /* align-self: stretch; */
   width: 100%;
 }
 
@@ -37,7 +32,6 @@
   height: 144px;
   position: relative;
   align-self: stretch;
-  /* margin-top: -1.00px; */
   font-family: "Plus Jakarta Sans-Bold", Helvetica;
   font-size: 64px;
   font-weight: 600;
@@ -47,7 +41,6 @@
 
 .frame .p {
   width: 624px;
-  /* height: 72px; */
   position: relative;
   align-self: stretch;
   opacity: 0.7;
@@ -63,11 +56,7 @@
   width: 624px;
   height: 96px;
   display: flex;
-  /* align-items: flex-start; */
-  gap: 40px;
-  /* position: relative; */
-  /* align-self: stretch; */
-  /* width: 100%; */
+  gap: 40px;/
 }
 
 .frame .vector {
@@ -84,19 +73,12 @@
   width: 584px;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
   gap: 8px;
-  /* position: relative;
-  flex: 1;
-  flex-grow: 1; */
 }
 
 .frame .text-wrapper-2 {
   height: 24px;
   width: 584px;
-  /* position: relative;
-  align-self: stretch;
-  margin-top: -1.00px; */
   opacity: 0.7;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
@@ -442,7 +424,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    margin: 20px 0;
+    /* margin: 10px 0; */
     top: auto;
     left: auto;
     border-radius: 16px;
