@@ -8,7 +8,7 @@ import Ellipse1138 from "../../assets/Ellipse 1138.svg";
 import Rectangle1455 from "../../assets/Rectangle 1455.svg";
 import Ellipse1139 from "../../assets/Ellipse 1139.svg";
 import Ellipse1139_1 from "../../assets/Ellipse 11391.svg";
-import FrameImg from "../../assets/Frame 48095514.svg"; // renamed to avoid conflict
+import FrameImg from "../../assets/Frame 48095514.svg"; 
 import GoogleLogo from "../../assets/Google Logotype.svg";
 import CanvaLogo from "../../assets/Canva Logotype.svg";
 import AmazonLogo from "../../assets/Amazon.svg";
@@ -38,15 +38,15 @@ const Frame = () => {
             </div>
           </div>
 
-        <div className="div-6">
-          <div className="div-wrapper-2">
-            <div className="text-wrapper-4">Start learning</div>
-          </div>
-          <div className="div-wrapper-3">
-            <div className="text-wrapper-5">Learn more</div>
+          <div className="div-6">
+            <div className="div-wrapper-2">
+              <div className="text-wrapper-4">Start learning</div>
+            </div>
+            <div className="div-wrapper-3">
+              <div className="text-wrapper-5">Learn more</div>
+            </div>
           </div>
         </div>
-         </div>
 
         <div className="div-7">
           <div className="trusted-section">

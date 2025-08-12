@@ -11,15 +11,15 @@ import Footer from "../Footer/footer.jsx";
 const home = () => {
   return (
     <>
-      <Navbar/>
-      <Frame/>
-        <Frame1/>
-       <Frame2/>
-       <Frame3/>
-        <Frame4/>
+      <Navbar />
+      <Frame />
+      <Frame1 />
+      <Frame2 />
+      <Frame3 />
+      <Frame4 />
       <Frame5 />
-      <Frame6/>
-        <Footer/>
+      <Frame6 />
+      <Footer />
     </>
   );
 };
