@@ -8,8 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<Navbar />} /> */}
-        {/* checkign */}
+        {/* <Route path="/" element={<Navbar />} /> */}git
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
