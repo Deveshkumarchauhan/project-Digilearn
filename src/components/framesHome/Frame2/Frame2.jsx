@@ -2,13 +2,13 @@ import React from 'react';
 import './Frame2.css';
 
 // Updated asset imports with safe file names
-import Image from '../../assets/image.svg';
-import Vector3 from '../../assets/vector3.svg';
-import ArrowRight from '../../assets/arrowRight.svg';
-import FifteenPlus from '../../assets/fifteenPlus.svg';
-import FortyFivePlus from '../../assets/fortyFivePlus.svg';
-import NinetyEight from '../../assets/ninetyEight.svg';
-import HundredK from '../../assets/hundredK.svg';
+import Image from '../../../assets/image.svg';
+import Vector3 from '../../../assets/vector3.svg';
+import ArrowRight from '../../../assets/arrowRight.svg';
+import FifteenPlus from '../../../assets/fifteenPlus.svg';
+import FortyFivePlus from '../../../assets/fortyFivePlus.svg';
+import NinetyEight from '../../../assets/ninetyEight.svg';
+import HundredK from '../../../assets/hundredK.svg';
 
 const Frame2 = () => {
   return (

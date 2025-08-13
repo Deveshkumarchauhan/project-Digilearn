@@ -2,10 +2,10 @@
 import React from 'react';
 import './Frame3.css';
 
-import Rectangle1 from '../../assets/Rectangle 1461.svg';
-import Rectangle2 from '../../assets/Rectangle 1461 (1).svg';
-import Rectangle3 from '../../assets/Rectangle 1461 (2).svg';
-import Rectangle4 from '../../assets/Rectangle 1461 (3).svg';
+import Rectangle1 from '../../../assets/Rectangle 1461.svg';
+import Rectangle2 from '../../../assets/Rectangle 1461 (1).svg';
+import Rectangle3 from '../../../assets/Rectangle 1461 (2).svg';
+import Rectangle4 from '../../../assets/Rectangle 1461 (3).svg';
 
 const courses = [
   {

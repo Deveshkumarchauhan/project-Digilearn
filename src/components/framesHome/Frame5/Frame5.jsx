@@ -1,13 +1,13 @@
 import React from "react";
 import "./Frame5.css";
-import vector3 from "../../assets/vector3.svg";
-import Rectangle1461Four from "../../assets/Rectangle 1461 (4).svg";
-import user from "../../assets/User.svg";
-import calenderBlank from "../../assets/CalendarBlank.svg";
-import arrowright from "../../assets/arrowright.svg";
-import arrowright7 from "../../assets/right.svg";
-import Rectangle1461Five from "../../assets/Rectangle 1461 (5).svg";
-import Rectangle1461six from "../../assets/Rectangle 1461 (6).svg";
+import vector3 from "../../../assets/vector3.svg";
+import Rectangle1461Four from "../../../assets/Rectangle 1461 (4).svg";
+import user from "../../../assets/User.svg";
+import calenderBlank from "../../../assets/CalendarBlank.svg";
+import arrowright from "../../../assets/arrowright.svg";
+import arrowright7 from "../../../assets/right.svg";
+import Rectangle1461Five from "../../../assets/Rectangle 1461 (5).svg";
+import Rectangle1461six from "../../../assets/Rectangle 1461 (6).svg";
 
 const Frame5 = () => {
   return (

@@ -1,0 +1,189 @@
+/* Container */
+ .frame48095526-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+/* Section */
+.frame48095526-frame48095526 {
+  height: 100%;
+  gap: 32px;
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(141, 5, 79, 1);
+  box-sizing: border-box;
+}
+
+/* Title */
+.frame48095526-frame48095520 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+/* Header Icon + Subtext */
+.frame48095526-frame48095519 {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.frame48095526-vector2 {
+  width: 64px;
+  height: 15px;
+}
+
+.frame48095526-text10 {
+  color: white;
+  opacity: 0.7;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.frame48095526-text11 {
+  color: white;
+  font-size: 36px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Feature Cards Wrapper */
+.frame48095526-frame48095525 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 80px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Base style for all cards */
+.feature-card {
+  flex: 1 1 280px;
+  /* max-width: 300px; */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #A4074D;
+  color: white;
+  box-sizing: border-box;
+   height: 361px;
+  width: 296px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* Card Icon */
+.feature-card img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Card Title */
+.feature-card-title {
+  width: 248px;
+  height: 29px;
+  font-size: 24px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 16px;
+}
+
+/* Card Description */
+.feature-card-desc {
+  height: 108px;
+  width: 248px;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 180%;
+  letter-spacing: 2%;
+  margin: 8px 0;
+}
+
+/* Learn more link */
+
+a.learn-more {
+  margin-top: auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  opacity: 0.7;
+  color: white;
+}
+.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
+/* Arrow icons */
+.learn-more img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .frame48095526-text11 {
+    font-size: 28px;
+  }
+
+  .frame48095526-frame48095525 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .frame48095526-text10,
+  .feature-card-title,
+  .learn-more {
+    font-size: 18px;
+  }
+
+  .frame48095526-text11 {
+    font-size: 24px;
+  }
+
+  .feature-card-desc {
+    font-size: 16px;
+  }
+}
+

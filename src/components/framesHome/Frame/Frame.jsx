@@ -1,18 +1,18 @@
 import React from "react";
 import "./Frame.css";
-import Vector from "../../assets/Vector 1.svg";
-import Ellipse1134 from "../../assets/Ellipse 1134.svg";
-import Ellipse1136 from "../../assets/Ellipse 1136.svg";
-import Ellipse1137 from "../../assets/Ellipse 1137.svg";
-import Ellipse1138 from "../../assets/Ellipse 1138.svg";
-import Rectangle1455 from "../../assets/Rectangle 1455.svg";
-import Ellipse1139 from "../../assets/Ellipse 1139.svg";
-import Ellipse1139_1 from "../../assets/Ellipse 11391.svg";
-import FrameImg from "../../assets/Frame 48095514.svg"; 
-import GoogleLogo from "../../assets/Google Logotype.svg";
-import CanvaLogo from "../../assets/Canva Logotype.svg";
-import AmazonLogo from "../../assets/Amazon.svg";
-import SketchLogo from "../../assets/Sketch Logotype.svg";
+import Vector from "../../../assets/Vector 1.svg";
+import Ellipse1134 from "../../../assets/Ellipse 1134.svg";
+import Ellipse1136 from "../../../assets/Ellipse 1136.svg";
+import Ellipse1137 from "../../../assets/Ellipse 1137.svg";
+import Ellipse1138 from "../../../assets/Ellipse 1138.svg";
+import Rectangle1455 from "../../../assets/Rectangle 1455.svg";
+import Ellipse1139 from "../../../assets/Ellipse 1139.svg";
+import Ellipse1139_1 from "../../../assets/Ellipse 11391.svg";
+import FrameImg from "../../../assets/Frame 48095514.svg"; 
+import GoogleLogo from "../../../assets/Google Logotype.svg";
+import CanvaLogo from "../../../assets/Canva Logotype.svg";
+import AmazonLogo from "../../../assets/Amazon.svg";
+import SketchLogo from "../../../assets/Sketch Logotype.svg";
 
 const Frame = () => {
   return (
