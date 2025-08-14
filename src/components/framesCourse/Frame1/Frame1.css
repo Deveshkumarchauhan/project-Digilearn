@@ -7,8 +7,6 @@ body {
 
 .f1-main {
   display: flex;
-  /* width: 100%; */
-  /* max-width: 1200px; */
   margin: auto;
   background-color: #cde3f0;
   padding: 20px;
@@ -18,22 +16,21 @@ body {
 /* LEFT SIDE */
 .f1-left {
   width: 32%;
-  height: 800px;
+  height: 800px auto;
   margin-left: 20px;
   margin-top: -300px;
   background: #fff;
   border-radius: 10px;
   padding: 30px 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  /* text-align: center; */
 }
+
 .f1-left:hover {
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 
 .f1-course-img {
   width: 400px;
@@ -58,7 +55,7 @@ body {
   gap: 10px;
   padding: 12px 0;
   border-bottom: 1px solid #ddd;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -73,7 +70,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .f1-btn:hover {
@@ -88,7 +85,7 @@ body {
 }
 
 .f1-desc {
- font-size: 22px;
+  font-size: 22px;
   margin-bottom: 25px;
   margin-left: 140px;
   line-height: 1.5;
@@ -109,7 +106,6 @@ body {
   margin-left: 140px;
   font-size: 20px;
   line-height: 2;
-  /* font-size: larger; */
 }
 
 .f1-video-item {
@@ -119,6 +115,7 @@ body {
   border-bottom: 1px solid #b0c8d6;
   font-size: 50pxpx;
 }
+
 /* 📱 Tablet view (≤1024px) */
 @media (max-width: 1024px) {
   .f1-main {
@@ -133,8 +130,8 @@ body {
   }
 
   .f1-course-img {
-    width: 400auto;
-    height:400 auto;
+    width: auto;
+    height: auto;
     background-size: cover;
   }
 
@@ -195,5 +192,85 @@ body {
 
   .f1-desc {
     font-size: 16px;
+  }
+}
+
+/* Input wrapper for video title toggle */
+.f1-input-wrapper {
+  position: relative;
+  width: 350px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+
+/* Input box styling */
+.video-input {
+  /* width: 674px; */
+  padding: 12px 40px 12px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid #b0c8d6;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.video-input:focus {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Video icon (left side) */
+.video-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 22px;
+}
+
+/* Arrow icon (right side) */
+.arrow-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #555;
+  transition: transform 0.3s ease;
+}
+
+/* Rotated arrow when open */
+.arrow-icon.rotate {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* 📱 Extra responsive for ≤705px */
+@media (max-width: 1010px) {
+  .f1-input-wrapper {
+    margin-left: 0 !important;
+    width: 100% auto !important;
+  }
+
+  .video-input {
+    width: 100% auto !important;
+    font-size: 18px;
+    padding: 10px 35px 10px 35px;
+  }
+}
+
+@media (max-width: 405px) {
+  .f1-input-wrapper {
+    margin-left: 0 !important;
+    width: 100% auto !important;
+  }
+
+  .video-input {
+    width: 100% auto !important;
+    font-size: 18px;
+    padding: 10px 35px 10px 35px;
   }
 }
