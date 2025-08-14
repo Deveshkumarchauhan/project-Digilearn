@@ -1,72 +1,58 @@
 import React from "react";
-import Vector2 from "../../../assets/vector 2.svg";
-import Person from "../../../assets/Person.svg";
-import MonitorPlay from "../../../assets/MonitorPlay.svg";
-import LockKeyOpen from "../../../assets/LockKeyOpen.svg";
-import Certificate from "../../../assets/Certificate.svg";
-import ArrowRight from "../../../assets/ArrowRight.svg";
-import "./Frame1.css"
+import "./Frame1.css";
+import { FaBook, FaProjectDiagram, FaVideo } from "react-icons/fa";
+import programmingone from "../../../assets img/programmingone.svg"
+export default function Frame1() {
+  const videos = [
+    { title: "Introduction to Programming", time: "02 : 10" },
+    { title: "Understanding Syntax", time: "02 : 50" },
+    { title: "Introduction to Programming", time: "02 : 10" },
+    { title: "Introduction to Programming", time: "02 : 10" },
+    { title: "Introduction to Programming", time: "02 : 10" },
+    { title: "Introduction to Programming", time: "02 : 10" },
+    { title: "Introduction to Programming", time: "02 : 10" },
+  ];
 
-const Frame1 = () => {
   return (
-    <div className="frame48095526-container">
-      <div className="frame48095526-frame48095526">
-        <div className="frame48095526-frame48095520">
-          <div className="frame48095526-frame48095519">
-            <img src={Vector2} alt="Decorative Line" className="frame48095526-vector2" />
-            <span className="frame48095526-text10">Why choose us</span>
-          </div>
-          <span className="frame48095526-text11">Best Learning Experience</span>
+    <div className="f1-main">
+      {/* Left Side */}
+      <div className="f1-left">
+        <img
+          src={programmingone}
+          alt="Course"
+          className="f1-course-img"
+        />
+
+        <h2 className="f1-title">Course Details</h2>
+
+        <div className="f1-info">
+          <p><FaBook /> 6 courses materials</p>
+          <p><FaProjectDiagram /> 2 Projects</p>
+          <p><FaVideo /> 10 Videos</p>
         </div>
 
-        <div className="frame48095526-frame48095525">
-          <div className="feature-card">
-            <img src={Person} alt="Expert instructor icon" />
-            <div className="feature-card-title">Expert Instructor</div>
-            <div className="feature-card-desc">
-              Empower yourself with the knowledge and skills gained...
-            </div>
-            <a className="learn-more" href="#">
-              Learn more <img src={ArrowRight} alt="Arrow right" />
-            </a>
-          </div>
+        <button className="f1-btn">ENROLL NOW</button>
+      </div>
 
-          <div className="feature-card">
-            <img src={MonitorPlay} alt="Interactive learning icon" />
-            <div className="feature-card-title">Interactive Learning</div>
-            <div className="feature-card-desc">
-              Empower yourself with the knowledge and skills gained...
-            </div>
-            <a className="learn-more" href="#">
-              Learn more <img src={ArrowRight} alt="Arrow right" />
-            </a>
-          </div>
+      {/* Right Side */}
+      <div className="f1-right">
+        <p className="f1-desc">
+          Understanding Core Programming Concepts Is Necessary For Starting A<br/>
+          Career In Software Development, Data Science And Many More. This Is<br/>
+          Your First Step To Becoming A World-class Tech Pro
+        </p>
 
-          <div className="feature-card">
-            <img src={LockKeyOpen} alt="Lifetime access icon" />
-            <div className="feature-card-title">Lifetime Access</div>
-            <div className="feature-card-desc">
-              Empower yourself with the knowledge and skills gained...
-            </div>
-            <a className="learn-more" href="#">
-              Learn more <img src={ArrowRight} alt="Arrow right" />
-            </a>
-          </div>
+        <h3 className="f1-videos-title"><FaVideo /> Videos</h3>
 
-          <div className="feature-card">
-            <img src={Certificate} alt="Verified certificate icon" />
-            <div className="feature-card-title">Verified Certificate</div>
-            <div className="feature-card-desc">
-              Empower yourself with the knowledge and skills gained...
+        <div className="f1-videos-list">
+          {videos.map((video, index) => (
+            <div key={index} className="f1-video-item">
+              <span>{video.title}</span>
+              <span>{video.time}</span>
             </div>
-            <a className="learn-more" href="#">
-              Learn more <img src={ArrowRight} alt="Arrow right" />
-            </a>
-          </div>
+          ))}
         </div>
       </div>
     </div>
   );
-};
-
-export default Frame1;
+}

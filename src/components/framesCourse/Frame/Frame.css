@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.course-infos {
+  background-color: #f7a935;
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+}
+
+.course-infos h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0; /* removed white gap */
+  margin-left: 250px;
+}
+
+.course-infos p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  margin: 5px 0 0 0; /* small top space only */
+  margin-left: 250px;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.description {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 0;  /* no outer spacing */
+  padding: 10px 0; /* just enough to fit text */
+}
+
+.description h1 {
+  margin: 0; /* removed h1 default margin */
+}
+/* 📱 Responsive Code */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .course-infos {
+    height: auto;
+    padding: 40px 100px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .course-infos h1 {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+
+  .course-infos p {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .course-infos {
+    padding: 30px 20px;
+    text-align: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .course-infos h1 {
+    font-size: 2.2rem;
+    margin-left: 0;
+  }
+
+  .course-infos p {
+    font-size: 0.95rem;
+    margin-left: 0;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .course-infos {
+    padding: 20px 10px;
+  }
+
+  .course-infos h1 {
+    font-size: 1.8rem;
+  }
+
+  .course-infos p {
+    font-size: 0.9rem;
+  }
+}
