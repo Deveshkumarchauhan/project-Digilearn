@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "../../navbar/navbar";
 import Frame from "../../contactUs/Frame/Frame";
 import Footer from "../../../components/Footer/footer.jsx";
-const contact = () => {
+const ContactUs = () => {
+  console.log('check');
+  
   return (
     <>
       <Navbar />
@@ -12,4 +14,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default ContactUs;

@@ -1,0 +1,111 @@
+/* Page Base */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8fafc; /* light gray bg */
+  margin: 0;
+  padding: 0;
+  color: #0f172a;
+}
+
+/* Section Wrapper */
+.testimonial-section {
+  width: 95%;
+  max-width: 1250px;
+  margin: 50px auto;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+/* Slider Layout */
+.slider-container {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+
+/* Testimonial Card */
+.card {
+  flex: 1;
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  min-width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Quote Icon */
+.quote-icon {
+  font-size: 28px;
+  color: #2563eb; /* blue */
+  margin-bottom: 15px;
+}
+
+/* Feedback Text */
+.feedback {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+/* Profile Info */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  color: #000;
+}
+
+.role {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Navigation Buttons */
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.nav-btn {
+  background: #64748b;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+.nav-btn:hover {
+  background: #334155;
+}

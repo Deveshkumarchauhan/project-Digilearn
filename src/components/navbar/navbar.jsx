@@ -4,6 +4,7 @@ import Logo from "../../assets/Logo.svg";
 import Vector from "../../assets/Vector.svg";
 import ShoppingBag from "../../assets/ShoppingBag.svg";
 import MagnifyingGlass from "../../assets/MagnifyingGlass.svg";
+// import ContactUs from "../compo"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,7 +81,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/contact" className="navbar-link">
+            <a href="/contactUs" className="navbar-link">
               Contact
             </a>
           </li>

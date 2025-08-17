@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //  import Frame from "./components/Frame/Frame.jsx";
 import Home from "./components/Pages/Home/home.jsx";
 import Course from "./components/Pages/course/course.js";
-import ContentUs from "./components/Pages/ContactUs/contact.jsx"
+import ContactUs from "./components/Pages/ContactUs/contact.jsx"
+import Product from "./components/Pages/Product/Product.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -12,7 +13,8 @@ function App() {
         {/* <Route path="/" element={<Navbar />} /> */}
         <Route path="/" element={<Home />} />
         <Route path="/course" element={<Course />} />
-        <Route path="/ContentUs" element={<ContentUs/>} />
+        <Route path="/ContactUs" element={<ContactUs/>} />
+        <Route path="/Product" element={<Product/>} />
       </Routes>
     </BrowserRouter>
   );

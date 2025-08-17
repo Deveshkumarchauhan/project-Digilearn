@@ -1,0 +1,91 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+.coursesSection {
+  width: 95%;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.coursesSection__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.coursesSection__list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.courseCard {
+  flex: 1;
+  min-width: 270px;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+}
+
+.courseCard__image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.courseCard__content {
+  padding: 15px;
+}
+
+.courseCard__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px 0;
+  color: #111827;
+}
+
+.courseCard__author {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.courseCard__rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.courseCard__star {
+  color: #facc15; /* yellow stars */
+}
+
+.courseCard__reviews {
+  font-size: 13px;
+  color: #374151;
+}
+
+.courseCard__details {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.courseCard__price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111827;
+}

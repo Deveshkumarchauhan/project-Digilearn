@@ -24,9 +24,7 @@ export default function Frame1() {
       {/* Left Side */}
       <div className="f1-left">
         <img src={programmingone} alt="Course" className="f1-course-img" />
-
         <h2 className="f1-title">Course Details</h2>
-
         <div className="f1-info">
           <p>
             <FaBook /> 6 course materials
@@ -38,7 +36,6 @@ export default function Frame1() {
             <FaDollarSign /> 2.7 prize
           </p>
         </div>
-
         <button className="f1-btn">ENROLL NOW</button>
       </div>
 
@@ -66,6 +63,17 @@ export default function Frame1() {
             className={`arrow-icon ${showVideos ? "rotate" : ""}`}
           />
         </div>
+                {/* Dropdown list - Videos */}
+        {showVideos && (
+          <div className="f1-videos-list" style={{ marginLeft: "140px" }}>
+            {videos.map((video, index) => (
+              <div key={index} className="f1-video-item">
+                <span>{video.title}</span>
+                <span>{video.time}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Free Text Input */}
         <div className="f1-input-wrapper" style={{ marginLeft: "140px" }}>
@@ -81,18 +89,6 @@ export default function Frame1() {
             className={`arrow-icon ${showFreetext ? "rotate" : ""}`}
           />
         </div>
-
-        {/* Dropdown list - Videos */}
-        {showVideos && (
-          <div className="f1-videos-list" style={{ marginLeft: "140px" }}>
-            {videos.map((video, index) => (
-              <div key={index} className="f1-video-item">
-                <span>{video.title}</span>
-                <span>{video.time}</span>
-              </div>
-            ))}
-          </div>
-        )}
 
         {/* Dropdown list - Free Text */}
         {showFreetext && (
