@@ -225,4 +225,122 @@
 .share-icons .share-btn:nth-child(5):hover svg {
   color: #0078d4;
 } /* Microsoft */
+/* ==== Base Code (same as yours, no changes) ==== */
+
+
+/* ✅ Responsive Enhancements */
+@media (max-width: 1200px) {
+  .containerss {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .courses-cards {
+    margin-left: 0;
+    width: 100%;
+    padding: 16px;
+  }
+
+  .coursebox {
+    margin-top: 40px;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+
+  .descriptions {
+    font-size: 18px;
+  }
+
+  .details {
+    font-size: 18px;
+    gap: 6px;
+  }
+
+  .course-img {
+    height: 220px;
+  }
+
+  .course-price .new-price {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .descriptions {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .details {
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .instructor {
+    justify-content: center;
+  }
+
+  .coursebox {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .share {
+    text-align: center;
+  }
+
+  .share-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .descriptions {
+    font-size: 14px;
+  }
+
+  .course-img {
+    height: 180px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .share-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .share-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
 

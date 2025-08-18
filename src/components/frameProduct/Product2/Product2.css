@@ -2,13 +2,10 @@ body {
   font-family: Arial, sans-serif;
   background: #fafafa;
   margin: 0;
-  /* padding: 20px; */
   color: #333;
 }
 
 .coursePage-wrapper {
-  /* max-width: 900px; */
-  /* margin-bottom: 500px; */
   margin: auto;
   background: #fff;
   padding: 20px;
@@ -20,9 +17,8 @@ body {
   gap: 10px;
   margin-bottom: 10px;
   margin-left: 80px;
-  /* margin-top: -80px; */
-
   font-size: 20px;
+  flex-wrap: wrap; /* Responsive ke liye wrap */
 }
 
 .coursePage-tab {
@@ -31,12 +27,13 @@ body {
   background: #fff;
   border-radius: 6px;
   cursor: pointer;
-   font-size: 20px;
+  font-size: 20px;
 }
-.hr{
-    margin-top: 30px;
-    width: 70%;
-    margin-left: 80px;
+
+.hr {
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 80px;
 }
 
 .coursePage-tab-active {
@@ -46,29 +43,30 @@ body {
 }
 
 /* Section titles */
-.coursePage-description{
-    margin-left: 80px;
+.coursePage-description {
+  margin-left: 80px;
 }
+
 h1 {
   margin-top: 20px;
-  /* font-size: 20px; */
   color: #111;
 }
-.para12{
-    font-size: 20px;
-    font-weight: 400;
+
+.para12 {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Instructor */
-
-.coursePage-instructor{
-    margin-left: 80px;
+.coursePage-instructor {
+  margin-left: 80px;
 }
 
-h2{
-    margin-top: 50px;
-    font-size: 25px;
+h2 {
+  margin-top: 50px;
+  font-size: 25px;
 }
+
 .coursePage-instructor-name {
   color: #2962ff;
   margin: 5px 0;
@@ -85,6 +83,7 @@ h2{
   align-items: center;
   gap: 20px;
   margin: 15px 0;
+  flex-wrap: wrap; /* Responsive ke liye */
 }
 
 .coursePage-instructor-photo {
@@ -94,9 +93,7 @@ h2{
 }
 
 .coursePage-instructor-stats p {
-  /* margin: 3px 0;
-  justify-content: center; */
-gap: 10px;
+  gap: 10px;
   text-align: center;
   display: flex;
   font-size: 14px;
@@ -134,4 +131,93 @@ gap: 10px;
 .coursePage-syllabus-item[open] summary {
   background: #f8f4ff;
   color: #7a42f4;
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 1024px) {
+  .coursePage-tabs {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .hr,
+  .coursePage-syllabus,
+  .coursePage-description,
+  .coursePage-instructor {
+    margin-left: 40px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .coursePage-tabs {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .coursePage-tab {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .hr,
+  .coursePage-syllabus,
+  .coursePage-description,
+  .coursePage-instructor {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .coursePage-instructor-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .coursePage-instructor-photo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .coursePage-instructor-name {
+    font-size: 22px;
+  }
+
+  .coursePage-instructor-bio {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coursePage-tabs {
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .coursePage-tab {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .hr,
+  .coursePage-syllabus,
+  .coursePage-description,
+  .coursePage-instructor {
+    margin-left: 10px;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .para12 {
+    font-size: 16px;
+  }
 }

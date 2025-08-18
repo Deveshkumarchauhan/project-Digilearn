@@ -90,8 +90,13 @@ export default function CoursePage() {
           <summary>
             Visual Design Principles <span>5 Lessons • 1 hour</span>
           </summary>
+
+        
         </details>
+         
       </section>
+       <hr className="hr" />
+
     </div>
   );
 }

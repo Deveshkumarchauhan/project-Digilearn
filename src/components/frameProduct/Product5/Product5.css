@@ -16,16 +16,18 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
   color: #0f172a;
+  text-align: center;
 }
 
 .coursesSection__list {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .courseCard {
-  flex: 1;
+  flex: 1 1 calc(33.33% - 20px); /* 3 cards per row desktop */
   min-width: 270px;
   max-width: 300px;
   background: #fff;
@@ -88,4 +90,26 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: #111827;
+}
+
+/* ============= RESPONSIVE BREAKPOINTS ============= */
+
+/* Tablets (2 cards per row) */
+@media (max-width: 992px) {
+  .courseCard {
+    flex: 1 1 calc(50% - 20px);
+    max-width: 100%;
+  }
+}
+
+/* Mobile (1 card per row) */
+@media (max-width: 600px) {
+  .coursesSection__title {
+    font-size: 20px;
+  }
+
+  .courseCard {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
