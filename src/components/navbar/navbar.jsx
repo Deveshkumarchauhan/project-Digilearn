@@ -35,16 +35,25 @@ const Navbar = () => {
           aria-expanded={isMenuOpen}
           aria-label="Toggle navigation menu"
         >
-          <svg className="navbar-toggle-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg
+            className="navbar-toggle-icon"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+              d={
+                isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+              }
             />
           </svg>
         </button>
-        <ul className={`navbar-links ${isMenuOpen ? "navbar-links--open" : ""}`}>
+        <ul
+          className={`navbar-links ${isMenuOpen ? "navbar-links--open" : ""}`}
+        >
           <li>
             <a href="/about" className="navbar-link">
               About us
@@ -86,13 +95,14 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <div className={`navbar-actions ${isMenuOpen ? "navbar-actions--open" : ""}`}>
-          <img
-            src={ShoppingBag}
-            alt="Shopping Cart"
-            className="navbar-icon"
-            aria-label="View cart"
-          />
+        <div
+          className={`navbar-actions ${
+            isMenuOpen ? "navbar-actions--open" : ""
+          }`}
+        >
+          <a href="/cartbox">
+            <img src={ShoppingBag} alt="Shopping Cart" />
+          </a>
           <div className="navbar-search">
             <img
               src={MagnifyingGlass}

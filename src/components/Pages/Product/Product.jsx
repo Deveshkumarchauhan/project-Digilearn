@@ -9,7 +9,7 @@ import Footer from "../../../components/Footer/footer.jsx";
 const Product = () => {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Product1 />
       <Product2 />
       <Product3 />

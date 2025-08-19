@@ -6,6 +6,7 @@ import Home from "./components/Pages/Home/home.jsx";
 import Course from "./components/Pages/course/course.js";
 import ContactUs from "./components/Pages/ContactUs/contact.jsx"
 import Product from "./components/Pages/Product/Product.jsx";
+import Cartbox from "./components/Pages/CartBox/Cartboxmani.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/course" element={<Course />} />
         <Route path="/ContactUs" element={<ContactUs/>} />
         <Route path="/Product" element={<Product/>} />
+        <Route path="cartbox" element={<Cartbox/>} />
       </Routes>
     </BrowserRouter>
   );
