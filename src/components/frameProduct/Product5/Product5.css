@@ -17,6 +17,7 @@ body {
   margin-bottom: 20px;
   color: #0f172a;
   text-align: center;
+  /* margin-left: 150px; */
 }
 
 .coursesSection__list {
@@ -30,7 +31,7 @@ body {
   flex: 1 1 calc(33.33% - 20px); /* 3 cards per row desktop */
   min-width: 270px;
   max-width: 300px;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);

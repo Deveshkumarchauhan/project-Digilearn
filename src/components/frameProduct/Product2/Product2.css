@@ -107,6 +107,11 @@ h2 {
 }
 
 /* Syllabus */
+.span1{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 .coursePage-syllabus {
   margin-top: 30px;
   width: 70%;
@@ -117,8 +122,8 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 8px;
   margin-bottom: 10px;
-  overflow: hidden;
   margin-left: 10px;
+  overflow: hidden;
 }
 
 .coursePage-syllabus-item summary {

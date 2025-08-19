@@ -52,7 +52,7 @@ const Product4 = () => {
   return (
     <div className="testimonial-section">
       {/* Title */}
-      <h2 className="title">
+      <h2 className="titless">
         What Our Customer Say <br /> About Us
       </h2>
 

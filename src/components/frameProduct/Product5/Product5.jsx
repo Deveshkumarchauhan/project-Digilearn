@@ -1,7 +1,7 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
 import "./Product5.css";
 import Rectangle1080 from "../../../assets img/Rectangle 1080.svg";
+import rating1 from "../../../assets img/ratings (1).svg"; // sirf ek rating bar image
 
 const courses = [
   {
@@ -18,7 +18,7 @@ const courses = [
     id: 2,
     title: "Beginner’s Guide to Design",
     author: "Ronald Richards",
-    rating: 5,
+    rating: 4,
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
@@ -28,7 +28,7 @@ const courses = [
     id: 3,
     title: "Beginner’s Guide to Design",
     author: "Ronald Richards",
-    rating: 5,
+    rating: 3,
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
@@ -38,7 +38,7 @@ const courses = [
     id: 4,
     title: "Beginner’s Guide to Design",
     author: "Ronald Richards",
-    rating: 5,
+    rating: 2,
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
@@ -65,11 +65,11 @@ const Product5 = () => {
               <p className="courseCard__author">By {course.author}</p>
 
               <div className="courseCard__rating">
-                {Array(course.rating)
-                  .fill()
-                  .map((_, i) => (
-                    <FaStar key={i} className="courseCard__star" />
-                  ))}
+                <img
+                  src={rating1}
+                  alt="rating bar"
+                  className="courseCard__star"
+                />
                 <span className="courseCard__reviews">
                   <b>({course.reviews} Ratings)</b>
                 </span>
