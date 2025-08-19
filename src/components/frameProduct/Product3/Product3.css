@@ -1,14 +1,18 @@
 .reviews-container {
   display: flex;
   gap: 40px;
-  margin: 40px auto;
-  max-width: 1200px;
+  /* margin: 40px auto; */
+  /* max-width: 1200px; */
   font-family: Arial, sans-serif;
+  background-color: #fff;
+  /* margin-top: 40px; */
+  height: 100%;
 }
 
 /* ===== Left Summary ===== */
 .reviews-summary {
   flex: 1;
+  margin-left: 100px;
 }
 
 .reviews-summary h3 {
@@ -57,11 +61,13 @@
 /* ===== Right Reviews ===== */
 .reviews-list {
   flex: 2;
+  margin-top: 80px;
 }
 
 .review-card {
   border: 1px solid #e2e8f0;
   border-radius: 12px;
+  margin-right: 80px;
   padding: 18px;
   margin-bottom: 20px;
   background: #fff;
@@ -116,6 +122,7 @@
   font-size: 15px;
   cursor: pointer;
   transition: all 0.3s;
+  margin-bottom: 20px;
 }
 
 .view-more:hover {

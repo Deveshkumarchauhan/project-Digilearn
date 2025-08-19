@@ -1,6 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import "./Product5.css";
+import Rectangle1080 from "../../../assets img/Rectangle 1080.svg";
 
 const courses = [
   {
@@ -11,7 +12,7 @@ const courses = [
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    image: Rectangle1080,
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const courses = [
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    image: Rectangle1080,
   },
   {
     id: 3,
@@ -31,7 +32,7 @@ const courses = [
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    image: Rectangle1080,
   },
   {
     id: 4,
@@ -41,7 +42,7 @@ const courses = [
     reviews: 1200,
     details: "22 Total Hours. 155 Lectures. Beginner",
     price: "$149.9",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    image: Rectangle1080,
   },
 ];
 

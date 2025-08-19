@@ -118,6 +118,7 @@ h2 {
   border-radius: 8px;
   margin-bottom: 10px;
   overflow: hidden;
+  margin-left: 10px;
 }
 
 .coursePage-syllabus-item summary {

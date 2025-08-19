@@ -4,6 +4,7 @@ import Ellipse5 from "../../../assets img/Ellipse 5.svg"
 import graduction from "../../../assets img/graduation-hat-02.svg"
 import award from "../../../assets img/award-03.svg"
 import play from "../../../assets img/play.svg"
+import vector from "../../../assets/Vector.svg"
 export default function CoursePage() {
   return (
     <div className="coursePage-wrapper">
@@ -70,25 +71,26 @@ export default function CoursePage() {
 
         <details className="coursePage-syllabus-item">
           <summary>
-            Introduction to UX Design <span>5 Lessons • 1 hour</span>
+           <img src={vector}/>Introduction to UX Design <span>5 Lessons • 1 hour</span>
+          
           </summary>
         </details>
 
         <details className="coursePage-syllabus-item">
           <summary>
-            Basics of User-Centered Design <span>5 Lessons • 1 hour</span>
+            <img src={vector}/> Basics of User-Centered Design <span>5 Lessons • 1 hour</span>
           </summary>
         </details>
 
-        <details className="coursePage-syllabus-item" open>
+        <details className="coursePage-syllabus-item" >
           <summary>
-            Elements of User Experience <span>5 Lessons • 1 hour</span>
+            <img src={vector}/> Elements of User Experience <span>5 Lessons • 1 hour</span>
           </summary>
         </details>
 
         <details className="coursePage-syllabus-item">
           <summary>
-            Visual Design Principles <span>5 Lessons • 1 hour</span>
+             <img src={vector}/>Visual Design Principles <span>5 Lessons • 1 hour</span>
           </summary>
 
         

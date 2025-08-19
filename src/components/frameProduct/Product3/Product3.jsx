@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product3.css"; // apni css file
 
-const ReviewsSection = () => {
+const Product3 = () => {
   const reviews = [
     {
       id: 1,
@@ -104,4 +104,4 @@ const ReviewsSection = () => {
   );
 };
 
-export default ReviewsSection;
+export default Product3;
