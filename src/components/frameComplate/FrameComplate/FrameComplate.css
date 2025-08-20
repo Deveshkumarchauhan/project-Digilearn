@@ -1,0 +1,103 @@
+/* Main container */
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px; /* responsive spacing */
+  box-sizing: border-box;
+}
+
+/* Green Circle with checkmark */
+.checkmark {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  animation: pop 0.5s ease-in-out;
+}
+
+.checkmark::before {
+  content: "✔";
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* Heading */
+.order-container h1 {
+  font-size: 28px;
+  color: #0f172a;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+/* Subtext */
+.order-container p {
+  font-size: 18px;
+  color: #334155;
+  line-height: 1.4;
+}
+
+/* Animation */
+@keyframes pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* -------- Responsive Design -------- */
+
+/* For small devices (phones) */
+@media (max-width: 480px) {
+  .checkmark {
+    width: 80px;
+    height: 80px;
+  }
+
+  .checkmark::before {
+    font-size: 40px;
+  }
+
+  .order-container h1 {
+    font-size: 22px;
+  }
+
+  .order-container p {
+    font-size: 16px;
+  }
+}
+
+/* For medium devices (tablets) */
+@media (max-width: 768px) {
+  .checkmark {
+    width: 100px;
+    height: 100px;
+  }
+
+  .checkmark::before {
+    font-size: 50px;
+  }
+
+  .order-container h1 {
+    font-size: 24px;
+  }
+
+  .order-container p {
+    font-size: 17px;
+  }
+}
