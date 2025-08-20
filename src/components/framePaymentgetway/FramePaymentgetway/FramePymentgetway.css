@@ -1,0 +1,337 @@
+.checkout-container {
+  font-family: Arial, sans-serif;
+  padding: 0 80px;
+  height: 800px;
+}
+
+.checkout-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.checkout-breadcrumb {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #555;
+}
+
+.checkout-breadcrumb .blue {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.checkout-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+/* ---------- Checkout Form ---------- */
+.checkout-form {
+  flex: 2;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 10px;
+  height: auto;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+/* ---------- Payment Methods ---------- */
+.payment-box {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.payment-box.active {
+  border-color: #007bff;
+  background: #f8fbff;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.payment-title {
+  margin-left: 8px;
+}
+
+.card-logo,
+.paypal-logo {
+  height: 25px;
+  margin-left: 8px;
+}
+
+.card-details {
+  margin-top: 15px;
+}
+
+/* ---------- Order Details ---------- */
+.order-details {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 80px;
+}
+
+.order-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item-subtitle {
+  font-size: 12px;
+  color: #777;
+}
+
+.item-price {
+  color: #000;
+  font-weight: bold;
+}
+
+/* ---------- Coupon ---------- */
+.coupon {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.coupon input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.coupon button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ---------- Price Summary ---------- */
+.price-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.price-summary .total {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* ---------- Checkout Button ---------- */
+.checkout-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+/* ------------ Responsive Styles ------------ */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .checkout-container {
+    padding: 0 40px;
+    height: auto;
+  }
+
+  .checkout-wrapper {
+    flex-direction: column;
+  }
+
+  .checkout-form {
+    width: 100%;
+  }
+
+  .order-details {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group input {
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .radio-label {
+    font-size: 18px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .checkout-container {
+    padding: 0 20px;
+  }
+
+  .checkout-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .checkout-breadcrumb {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .checkout-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .checkout-form,
+  .order-details {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .form-group input {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .radio-label {
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .card-logo,
+  .paypal-logo {
+    height: 20px;
+  }
+
+  .item-title {
+    font-size: 13px;
+  }
+
+  .item-subtitle {
+    font-size: 11px;
+  }
+
+  .item-price {
+    font-size: 14px;
+  }
+
+  .price-summary p {
+    font-size: 13px;
+  }
+
+  .price-summary .total {
+    font-size: 15px;
+  }
+
+  .checkout-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .checkout-container {
+    padding: 0 10px;
+  }
+
+  .checkout-title {
+    font-size: 20px;
+  }
+
+  .checkout-breadcrumb {
+    font-size: 14px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .coupon input {
+    font-size: 14px;
+  }
+
+  .coupon button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .checkout-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
