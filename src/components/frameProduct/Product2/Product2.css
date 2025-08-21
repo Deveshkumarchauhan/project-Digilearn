@@ -3,6 +3,7 @@ body {
   background: #fafafa;
   margin: 0;
   color: #333;
+  scroll-behavior: smooth; /* smooth scroll for anchor links */
 }
 
 .coursePage-wrapper {
@@ -14,7 +15,7 @@ body {
 /* Tabs */
 .coursePage-tabs {
   display: flex;
-  gap: 10px;
+  gap: 35px;
   margin-bottom: 10px;
   margin-left: 80px;
   font-size: 20px;
@@ -28,6 +29,13 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 20px;
+  text-decoration: none; /* anchor link ke underline ko hatao */
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.coursePage-tab:hover {
+  background: #f2f2f2;
 }
 
 .hr {
@@ -96,6 +104,7 @@ h2 {
   gap: 10px;
   text-align: center;
   display: flex;
+  align-items: center; /* icon aur text center align */
   font-size: 14px;
   color: #444;
 }
@@ -107,7 +116,7 @@ h2 {
 }
 
 /* Syllabus */
-.span1{
+.span1 {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -139,6 +148,12 @@ h2 {
   color: #7a42f4;
 }
 
+/* Reviews Section */
+.coursePage-reviews {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
 /* ---------------- Responsive ---------------- */
 @media (max-width: 1024px) {
   .coursePage-tabs {
@@ -149,7 +164,8 @@ h2 {
   .hr,
   .coursePage-syllabus,
   .coursePage-description,
-  .coursePage-instructor {
+  .coursePage-instructor,
+  .coursePage-reviews {
     margin-left: 40px;
     width: 85%;
   }
@@ -169,7 +185,8 @@ h2 {
   .hr,
   .coursePage-syllabus,
   .coursePage-description,
-  .coursePage-instructor {
+  .coursePage-instructor,
+  .coursePage-reviews {
     margin-left: 20px;
     width: 90%;
   }
@@ -210,7 +227,8 @@ h2 {
   .hr,
   .coursePage-syllabus,
   .coursePage-description,
-  .coursePage-instructor {
+  .coursePage-instructor,
+  .coursePage-reviews {
     margin-left: 10px;
     width: 95%;
   }

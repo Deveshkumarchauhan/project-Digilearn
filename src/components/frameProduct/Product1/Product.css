@@ -17,16 +17,16 @@
 }
 
 /* Breadcrumb */
-.breadcrumb {
+.breadcrumbs1{
   font-size: 22px;
   color: #6b7280;
   margin-bottom: 16px;
   gap: 25px;
 }
-.breadcrumb span {
+.breadcrumbs1 span {
   cursor: pointer;
 }
-.breadcrumb .active {
+.breadcrumbs1 .active {
   color: #2563eb;
 }
 

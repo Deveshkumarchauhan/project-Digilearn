@@ -9,7 +9,7 @@ export default function CourseCard() {
     <div className="containerss">
       <div className="courses-cards">
         {/* Breadcrumb */}
-        <nav className="breadcrumb">
+        <nav className="breadcrumbs1">
           <span>Home </span> &gt; <span>Categories </span> &gt;{" "}
           <span className="active">Introduction to User Experience Design</span>
         </nav>

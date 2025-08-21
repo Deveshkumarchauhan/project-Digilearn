@@ -11,17 +11,23 @@ export default function CoursePage() {
     <div className="coursePage-wrapper">
       {/* Tabs */}
       <div className="coursePage-tabs">
-        <button className="coursePage-tab coursePage-tab-active">
+        <a href="#description" className="coursePage-tab coursePage-tab-active">
           Description
-        </button>
-        <button className="coursePage-tab">Instructor</button>
-        <button className="coursePage-tab">Syllabus</button>
-        <button className="coursePage-tab">Reviews</button>
+        </a>
+        <a href="#instructor" className="coursePage-tab">
+          Instructor
+        </a>
+        <a href="#syllabus" className="coursePage-tab">
+          Syllabus
+        </a>
+        <a href="#reviews" className="coursePage-tab">
+          Reviews
+        </a>
       </div>
       <hr className="hr" />
 
       {/* Course Description */}
-      <section className="coursePage-description">
+      <section id="description" className="coursePage-description">
         <h1>Course Description</h1>
         <p className="para12">
           This interactive e-learning course will introduce you to User
@@ -44,7 +50,7 @@ export default function CoursePage() {
       </section>
 
       {/* Instructor */}
-      <section className="coursePage-instructor">
+      <section id="instructor" className="coursePage-instructor">
         <h2>Instructor</h2>
         <h3 className="coursePage-instructor-name">Ronald Richards</h3>
         <p className="coursePage-instructor-role">UI/UX Designer</p>
@@ -57,13 +63,13 @@ export default function CoursePage() {
           />
           <div className="coursePage-instructor-stats">
             <p>
-              <img src={graduction} /> 40,445 Reviews
+              <img src={graduction} alt="Graduation cap" /> 40,445 Reviews
             </p>
             <p>
-              <img src={award} /> 500 Students
+              <img src={award} alt="Award" /> 500 Students
             </p>
             <p>
-              <img src={play} /> 15 Courses
+              <img src={play} alt="Play icon" /> 15 Courses
             </p>
           </div>
         </div>
@@ -78,13 +84,13 @@ export default function CoursePage() {
       </section>
 
       {/* Syllabus */}
-      <section className="coursePage-syllabus">
+      <section id="syllabus" className="coursePage-syllabus">
         <h2>Syllabus</h2>
 
         <details className="coursePage-syllabus-item">
           <summary>
             <span className="span1">
-              <img src={vector} />
+              <img src={vector} alt="Arrow" />
               Introduction to UX Design
             </span>
             <span>5 Lessons • 1 hour</span>
@@ -94,7 +100,7 @@ export default function CoursePage() {
         <details className="coursePage-syllabus-item">
           <summary>
             <span className="span1">
-              <img src={vector} /> Basics of User-Centered Design{" "}
+              <img src={vector} alt="Arrow" /> Basics of User-Centered Design{" "}
             </span>
             <span>5 Lessons • 1 hour</span>
           </summary>
@@ -103,7 +109,7 @@ export default function CoursePage() {
         <details className="coursePage-syllabus-item">
           <summary>
             <span className="span1">
-              <img src={vector} /> Elements of User Experience
+              <img src={vector} alt="Arrow" /> Elements of User Experience
             </span>
             <span>5 Lessons • 1 hour</span>
           </summary>
@@ -112,13 +118,22 @@ export default function CoursePage() {
         <details className="coursePage-syllabus-item">
           <summary>
             <span className="span1">
-              <img src={vector} />
+              <img src={vector} alt="Arrow" />
               Visual Design Principles
             </span>
             <span>5 Lessons • 1 hour</span>
           </summary>
         </details>
       </section>
+
+      {/* Reviews */}
+      <section id="reviews" className="coursePage-reviews">
+        <h2>Reviews</h2>
+        <p className="para12">
+          Student reviews will be displayed here once available.
+        </p>
+      </section>
+
       <hr className="hr" />
     </div>
   );
