@@ -66,13 +66,13 @@ const Navbar = () => {
               aria-expanded={isDropdownOpen}
               aria-label="Toggle class dropdown"
             >
-              Our Class
+              Our Course
               <img src={Vector} alt="Dropdown Arrow" className="navbar-caret" />
             </button>
             {isDropdownOpen && (
               <ul className="navbar-dropdown-menu">
                 <li>
-                  <a href="/class1" className="navbar-dropdown-item">
+                  <a href="/Product" className="navbar-dropdown-item">
                     Class 1
                   </a>
                 </li>

@@ -9,6 +9,7 @@ import Product from "./components/Pages/Product/Product.jsx";
 import Cartbox from "./components/Pages/CartBox/Cartboxmani.jsx";
 import Paymentgetway from "./components/Pages/Paymentgetway/Paymentgetway.jsx";
 import Complete from "./components/Pages/Complete/Complete.jsx";
+import About from "./components/Pages/About/About.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
         <Route path="cartbox" element={<Cartbox/>} />
         <Route path="/Paymentgetway" element={<Paymentgetway />} />
         <Route path="/Complete" element={<Complete/>} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
