@@ -85,8 +85,8 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <a href="/blog" className="navbar-link">
-              Blog
+            <a href="/Category" className="navbar-link">
+              Category
             </a>
           </li>
           <li>
