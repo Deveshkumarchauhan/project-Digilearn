@@ -1,0 +1,117 @@
+.fc3-container {
+  padding: 40px 80px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+.fc3-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #0f172a;
+  /* text-align: center; */
+}
+
+.fc3-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.fc3-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.fc3-card:hover {
+  transform: translateY(-4px);
+}
+
+.fc3-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.fc3-content {
+  padding: 16px;
+  text-align: left;
+}
+
+.fc3-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #0f172a;
+}
+
+.fc3-instructor {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.fc3-rating {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #facc15;
+  flex-wrap: wrap;
+}
+
+.fc3-stars {
+  font-size: 16px;
+}
+
+.fc3-rating-count {
+  margin-left: 8px;
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.fc3-details {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.fc3-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .fc3-heading {
+    font-size: 24px;
+  }
+
+  .fc3-card {
+    max-width: 100%;
+  }
+
+  .fc3-rating {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fc3-heading {
+    font-size: 20px;
+  }
+
+  .fc3-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fc3-price {
+    font-size: 16px;
+  }
+}

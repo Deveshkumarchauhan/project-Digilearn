@@ -1,0 +1,101 @@
+.fc2-container {
+  padding: 40px 20px;
+  background-color: #f8fafc;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fc2-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1e293b;
+}
+
+.fc2-mentor-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fc2-mentor-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+  max-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  flex: 1 1 220px;
+}
+
+.fc2-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.fc2-name {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 12px 0 4px;
+  color: #1e293b;
+}
+
+.fc2-title {
+  /* color: #475569; */
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 80px;
+
+}
+
+.fc2-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #1e293b;
+  margin-top: 8px;
+}
+
+.fc2-rating {
+  color: #facc15;
+  font-weight: bold;
+}
+
+.fc2-students {
+  color: #1e293b;
+}
+
+/* === Responsive Design === */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .fc2-mentor-list {
+    justify-content: center;
+  }
+
+  .fc2-mentor-card {
+    max-width: 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .fc2-heading {
+    font-size: 1.5rem;
+  }
+
+  .fc2-mentor-card {
+    max-width: 100%;
+  }
+
+  .fc2-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+}

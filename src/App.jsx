@@ -10,6 +10,7 @@ import Cartbox from "./components/Pages/CartBox/Cartboxmani.jsx";
 import Paymentgetway from "./components/Pages/Paymentgetway/Paymentgetway.jsx";
 import Complete from "./components/Pages/Complete/Complete.jsx";
 import About from "./components/Pages/About/About.jsx";
+import Category from "./components/Pages/Category/Category.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Paymentgetway" element={<Paymentgetway />} />
         <Route path="/Complete" element={<Complete/>} />
         <Route path="/About" element={<About />} />
+        <Route path="Category" element={<Category/>} />
       </Routes>
     </BrowserRouter>
   );
