@@ -15,4 +15,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 https://github.com/vickychaudhary45/rnsRetail
 
+https://meet.google.com/fvg-tjmc-nda
+
 ![alt text](image.png)
